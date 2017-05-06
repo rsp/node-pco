@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/rsp/node-pco/issues"
   },
-  "homepage": "https://github.com/rsp/node-pco#readme"
+  "homepage": "https://github.com/rsp/node-pco#readme",
+  "dependencies": {
+    "bluebird": "^3.5.0"
+  }
 }
