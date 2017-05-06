@@ -10,6 +10,14 @@ Object.keys(Bluebird).forEach((key) => {
   P[key] = Bluebird[key];
 });
 
-P.co = Bluebird.coroutine;
+['co', 'Co', 'c', 'C']
+  .forEach((key) => {
+    P[key] = Bluebird.coroutine;
+  });
+
+['P', 'p', 'Promise', 'promise', 'B', 'b', 'Bluebird', 'bluebird']
+  .forEach((key) => {
+    P[key] = P;
+  });
 
 module.exports = P; 
