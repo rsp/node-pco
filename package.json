@@ -1,0 +1,28 @@
+{
+  "name": "pco",
+  "version": "0.0.0",
+  "description": "Shortcuts for Bluebird's Promise.coroutine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rsp/node-pco.git"
+  },
+  "keywords": [
+    "promise",
+    "coroutine",
+    "bluebird",
+    "generators",
+    "generator",
+    "async",
+    "yield"
+  ],
+  "author": "Rafał Pocztarski <r.pocztarski@gmail.com> (https://pocztarski.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rsp/node-pco/issues"
+  },
+  "homepage": "https://github.com/rsp/node-pco#readme"
+}
