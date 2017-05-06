@@ -13,7 +13,18 @@ const f = P.co(function* () {
 });
 
 f().then(console.log);
+```
 
+Or:
+```js
+const { P, co } = require('pco');
+
+const f = co(function* () {
+  yield P.delay(2000);
+  return 'pco';
+});
+
+f().then(console.log);
 ```
 
 TODO
