@@ -1,6 +1,6 @@
 {
   "name": "pco",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Shortcuts for Bluebird's Promise.coroutine",
   "main": "index.js",
   "scripts": {
