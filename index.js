@@ -13,4 +13,3 @@ Object.keys(Bluebird).forEach((key) => {
 P.co = Bluebird.coroutine;
 
 module.exports = P; 
-
